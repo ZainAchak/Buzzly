@@ -1,12 +1,57 @@
-# React + Vite
+# 🚀 Buzzly – A Full-Stack Experimental Social Media App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Buzzly** is a fully functional, experimental social media application built with modern React architecture. It offers authentication, data fetching, state management, and UI design using best-in-class tools such as **Clerk**, **TanStack Query**, **Zustand**, and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+This project is ideal for developers exploring scalable frontend architecture, authentication integration, and rapid UI development.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔐 **Clerk Authentication**
+  - Sign up, sign in, and user session handling
+  - Out-of-the-box support for OAuth providers
+  - User profile management with `<UserButton />`
+
+- ⚛️ **React 18 App Architecture**
+  - React Router DOM v6 for route-based layouts
+  - Declarative routing & nested components
+
+- 📦 **State Management with Zustand**
+  - Lightweight, scalable global state
+  - Used for UI state like sidebar toggling, modals, etc.
+
+- 📡 **TanStack Query (React Query)**
+  - Data fetching, caching, and synchronization
+  - Automatic retries, pagination, and optimistic updates
+
+- 🎨 **Tailwind CSS**
+  - Utility-first styling
+  - Fully responsive and mobile-optimized UI
+  - Dark mode ready (optional toggle)
+
+- 💬 **Social Features**
+  - Create, edit, and delete posts
+  - User profiles and profile routes
+  - Real-time messaging and chat UI
+  - Connections & discoverable people
+  - Feed with infinite scroll and lazy loading
+
+- 🧪 **Experimental UI/UX**
+  - Skeleton loaders with `animate-pulse`
+  - Micro animations and transitions
+  - Responsive sidebar layout
+
+---
+
+## 🧱 Tech Stack
+
+| Technology      | Purpose                            |
+|-----------------|------------------------------------|
+| React           | Frontend framework                 |
+| Clerk           | Authentication & user management  |
+| TanStack Query  | Remote data handling (API layer)   |
+| Zustand         | App state management               |
+| Tailwind CSS    | Styling and layout                 |
+| React Router    | Client-side routing                |
+| Vite / CRA      | Fast dev environment               |
