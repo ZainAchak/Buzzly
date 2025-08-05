@@ -1,5 +1,6 @@
-import { Star } from 'lucide-react'
+import { Laptop, Star } from 'lucide-react'
 import { assets } from '../assets/assets'
+import techused from "../assets/techused.png"
 import { SignedIn, SignedOut, SignIn, SignInButton, UserButton } from '@clerk/clerk-react';
 
 export default function Login() {
@@ -29,13 +30,26 @@ export default function Login() {
           </h1>
           <p className='text-xl md:text-3xl text-indigo-900 max-w-72 md:max-w-md'>
             Connect with friends, share updates on Buzzly.</p>
+
+          
+          <div className='hidden md:block mt-30'>
+             <h1 className="text-l font-medium text-gradient bg-gradient-to-r from-blue-950 via-purple-600 to-indigo-500 bg-clip-text text-transparent tracking-wide mb-1 drop-shadow-lg opacity-85">
+              <Laptop className='text-blue-500 inline mb-1 w-6 ml-1'/> Tech Used</h1>
+            <img src={techused} className=' w-[400px] '/>
           </div>
-          <span className='md:h10'></span>
+
+          </div>
+          <span className='hidden md:h5 md:block'></span>
+          
         </div>
 
         {/* Right side : Login Form */}
-        <div className=' flex-1 flex items-center justify-center p-6 sm:p-10'>
+        <div className=' flex-1 flex flex-col items-center justify-center p-6 sm:p-10'>
           <SignIn/>
+          {/* <span className='sm:hidden md:h10 '></span> */}
+          <div>
+            <img src={techused} className='sm:hidden w-[400px] mt-5 '/>
+          </div>
         </div>
     </div>
   )

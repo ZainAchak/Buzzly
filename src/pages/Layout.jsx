@@ -4,14 +4,18 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { dummyUserData } from "../assets/assets";
 import Loading from "../components/Loading";
+import useSideBarStore from "../Store/useStore";
 
 export default function Layout() {
-  const [sideBarOpen, setSideBarOpen] = useState(false)
+  // const [sideBarOpen, setSideBarOpen] = useState(false)
+  const sideBarOpen = useSideBarStore((state)=> state.sideBarOpen)
+  const setSideBarOpen = useSideBarStore((state)=>state.setSideBarOpen)
+
   const user = dummyUserData
   // console.log(user);
   return user ? (
     <div className="w-full h-screen flex">
-      <Sidebar sideBarOpen={sideBarOpen} setSideBarOpen={setSideBarOpen} />
+      <Sidebar />
       <div className="flex-1 bg-slate-50">
         <Outlet />
       </div>

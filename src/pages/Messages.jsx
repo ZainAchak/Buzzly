@@ -1,3 +1,6 @@
+import useSideBarStore from "../Store/useStore";
+
 export default function Messages() {
-  return <h1>This is Messages</h1>;
+  const sideBar = useSideBarStore((state)=> state.sideBarOpen)
+  return <h1>This is Messages{` ${sideBar}`}</h1>;
 }
