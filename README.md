@@ -4,6 +4,10 @@
 
 This project is ideal for developers exploring scalable frontend architecture, authentication integration, and rapid UI development.
 
+## Live Demo
+
+[View it here](https://buzzly-eight.vercel.app/)
+
 ---
 
 ## ✨ Features
