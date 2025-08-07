@@ -1,8 +1,16 @@
 import { create } from "zustand";
 
-const useSideBarStore = create((set)=>({
+export const useSideBarStore = create((set)=>({
     sideBarOpen: false,
     setSideBarOpen: (value) => set({sideBarOpen: value})
 }))
 
-export default useSideBarStore
+export const useShowModalStore = create((set)=>({
+    showModal:false,
+    setShowModal: (value) => set({showModal:value})
+}))
+
+export const useViewStoryStore = create((set)=>({
+    viewStory: null,
+    setViewStory: (value) => set({viewStory: value})
+}))

@@ -1,10 +1,9 @@
 import { Outlet } from "react-router-dom";
 import Sidebar from "../components/Sidebar";
-import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { dummyUserData } from "../assets/assets";
 import Loading from "../components/Loading";
-import useSideBarStore from "../Store/useStore";
+import {useSideBarStore} from "../Store/useStore";
 
 export default function Layout() {
   // const [sideBarOpen, setSideBarOpen] = useState(false)

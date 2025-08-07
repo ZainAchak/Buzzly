@@ -3,7 +3,7 @@ import { assets, dummyUserData } from "../assets/assets";
 import MenuItems from "./MenuItems";
 import { CirclePlus, Dot, LogOut } from "lucide-react";
 import { useClerk, UserButton } from "@clerk/clerk-react";
-import useSideBarStore from "../Store/useStore";
+import {useSideBarStore} from "../Store/useStore";
 
 export default function Sidebar() {
     const sideBarOpen = useSideBarStore((state)=> state.sideBarOpen)

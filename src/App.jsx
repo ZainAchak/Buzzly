@@ -15,6 +15,7 @@ import Createpost from "./pages/Createpost";
 import { useUser } from "@clerk/clerk-react";
 import Layout from "./pages/Layout";
 import Loading from "./components/Loading";
+import { Toaster } from "react-hot-toast";
 
 function App() {
   const user = useUser();
@@ -36,7 +37,12 @@ function App() {
     )
   );
 
-  return <RouterProvider router={router} />;
+  return(
+    <>
+      <Toaster /> 
+      <RouterProvider router={router} />
+    </>
+    )
 }
 
 export default App;

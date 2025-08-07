@@ -26,8 +26,8 @@ export const menuItemsData = [
 export const dummyUserData = {
     "_id": "user_2zdFoZib5lNr614LgkONdD8WG32",
     "email": "admin@example.com",
-    "full_name": "John Warren",
-    "username": "john_warren",
+    "full_name": "Zain Ullah",
+    "username": "zainachak",
     "bio": "🌍 Dreamer | 📚 Learner | 🚀 Doer\r\nExploring life one step at a time.\r\n✨ Staying curious. Creating with purpose.",
     "profile_picture": sample_profile,
     "cover_photo": sample_cover,
@@ -127,7 +127,284 @@ export const dummyPostsData = [
         "user": dummyUserData,
         "content": "We're a small #team with a big vision — working day and night to turn dreams into products, and #products into something people love.",
         "image_urls": [
-            "https://images.pexels.com/photos/1595385/pexels-photo-1595385.jpeg"
+            "https://images.pexels.com/photos/1595385/pexels-photo-1595385.jpeg",
+            "https://images.pexels.com/photos/12556235/pexels-photo-12556235.jpeg?_gl=1*188besp*_ga*MTAyNDQxNjQ4NC4xNzU0NTczOTQ5*_ga_8JE65Q40S6*czE3NTQ1NzM5NDkkbzEkZzEkdDE3NTQ1NzM5NzMkajM2JGwwJGgw"
+        ],
+        "post_type": "text_with_image",
+        "likes_count": [],
+        "createdAt": "2025-07-16T05:54:31.191Z",
+        "updatedAt": "2025-07-16T05:54:31.191Z",
+    },
+    {
+        "_id": "686e6d0407845749500c24cd",
+        "user": dummyUserData,
+        "content": "Unlock your potential—every small step counts. Stay consistent, stay focused, and trust the process. Growth takes time, but every day is a new chance to be better than yesterday. 🌱✨\r\n\r\n#Motivation #GrowthMindset #DailyInspiration #StayFocused #LevelUp #PositiveVibes #KeepGoing #SelfImprovement #MindsetMatters #SuccessJourney",
+        "image_urls": [],
+        "post_type": "text",
+        "likes_count": [],
+        "createdAt": "2025-07-09T13:22:12.601Z",
+        "updatedAt": "2025-07-09T13:22:12.601Z",
+    },
+    {
+        "_id": "686e6b21de877d29cf02e2a7",
+        "user": dummyUserData,
+        "content": "This is a sample paragraph with some #hashtags like #socialmedia and #marketing. Let's find them!",
+        "image_urls": [],
+        "post_type": "text",
+        "likes_count": [],
+        "createdAt": "2025-07-09T13:14:09.144Z",
+        "updatedAt": "2025-07-09T13:14:09.144Z",
+    },
+    {
+        "_id": "686e3e47ba0cf0fecba19947",
+        "user": dummyUserData,
+        "content": "",
+        "image_urls": [
+            "https://images.pexels.com/photos/1619317/pexels-photo-1619317.jpeg"
+        ],
+        "post_type": "image",
+        "likes_count": [
+            "user_2zdJbcAqiOX9jq2DIueBRQn0lMt"
+        ],
+        "createdAt": "2025-07-09T10:02:47.213Z",
+        "updatedAt": "2025-07-09T10:09:37.075Z",
+    },
+    {
+        "_id": "686e39e86e0585e9e2e58dd3",
+        "user": dummyUserData,
+        "content": "Finally , got the car !",
+        "image_urls": [
+            "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg"
+        ],
+        "post_type": "text_with_image",
+        "likes_count": [],
+        "createdAt": "2025-07-09T09:44:08.626Z",
+        "updatedAt": "2025-07-09T09:44:08.626Z",
+    },
+    {
+        "_id": "686e361389841ba9f2633201",
+        "user": dummyUserData,
+        "content": "Hello, Everyone this is my first Post",
+        "image_urls": [],
+        "post_type": "text",
+        "likes_count": [],
+        "createdAt": "2025-07-09T09:27:47.529Z",
+        "updatedAt": "2025-07-09T09:27:47.529Z",
+    },
+    {
+        "_id": "68773e977db16954a783839c",
+        "user": dummyUserData,
+        "content": "We're a small #team with a big vision — working day and night to turn dreams into products, and #products into something people love.",
+        "image_urls": [
+            "https://images.pexels.com/photos/1595385/pexels-photo-1595385.jpeg",
+            "https://images.pexels.com/photos/12556235/pexels-photo-12556235.jpeg?_gl=1*188besp*_ga*MTAyNDQxNjQ4NC4xNzU0NTczOTQ5*_ga_8JE65Q40S6*czE3NTQ1NzM5NDkkbzEkZzEkdDE3NTQ1NzM5NzMkajM2JGwwJGgw"
+        ],
+        "post_type": "text_with_image",
+        "likes_count": [],
+        "createdAt": "2025-07-16T05:54:31.191Z",
+        "updatedAt": "2025-07-16T05:54:31.191Z",
+    },
+    {
+        "_id": "686e6d0407845749500c24cd",
+        "user": dummyUserData,
+        "content": "Unlock your potential—every small step counts. Stay consistent, stay focused, and trust the process. Growth takes time, but every day is a new chance to be better than yesterday. 🌱✨\r\n\r\n#Motivation #GrowthMindset #DailyInspiration #StayFocused #LevelUp #PositiveVibes #KeepGoing #SelfImprovement #MindsetMatters #SuccessJourney",
+        "image_urls": [],
+        "post_type": "text",
+        "likes_count": [],
+        "createdAt": "2025-07-09T13:22:12.601Z",
+        "updatedAt": "2025-07-09T13:22:12.601Z",
+    },
+    {
+        "_id": "686e6b21de877d29cf02e2a7",
+        "user": dummyUserData,
+        "content": "This is a sample paragraph with some #hashtags like #socialmedia and #marketing. Let's find them!",
+        "image_urls": [],
+        "post_type": "text",
+        "likes_count": [],
+        "createdAt": "2025-07-09T13:14:09.144Z",
+        "updatedAt": "2025-07-09T13:14:09.144Z",
+    },
+    {
+        "_id": "686e3e47ba0cf0fecba19947",
+        "user": dummyUserData,
+        "content": "",
+        "image_urls": [
+            "https://images.pexels.com/photos/1619317/pexels-photo-1619317.jpeg"
+        ],
+        "post_type": "image",
+        "likes_count": [
+            "user_2zdJbcAqiOX9jq2DIueBRQn0lMt"
+        ],
+        "createdAt": "2025-07-09T10:02:47.213Z",
+        "updatedAt": "2025-07-09T10:09:37.075Z",
+    },
+    {
+        "_id": "686e39e86e0585e9e2e58dd3",
+        "user": dummyUserData,
+        "content": "Finally , got the car !",
+        "image_urls": [
+            "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg"
+        ],
+        "post_type": "text_with_image",
+        "likes_count": [],
+        "createdAt": "2025-07-09T09:44:08.626Z",
+        "updatedAt": "2025-07-09T09:44:08.626Z",
+    },
+    {
+        "_id": "686e361389841ba9f2633201",
+        "user": dummyUserData,
+        "content": "Hello, Everyone this is my first Post",
+        "image_urls": [],
+        "post_type": "text",
+        "likes_count": [],
+        "createdAt": "2025-07-09T09:27:47.529Z",
+        "updatedAt": "2025-07-09T09:27:47.529Z",
+    },
+    {
+        "_id": "68773e977db16954a783839c",
+        "user": dummyUserData,
+        "content": "We're a small #team with a big vision — working day and night to turn dreams into products, and #products into something people love.",
+        "image_urls": [
+            "https://images.pexels.com/photos/1595385/pexels-photo-1595385.jpeg",
+            "https://images.pexels.com/photos/12556235/pexels-photo-12556235.jpeg?_gl=1*188besp*_ga*MTAyNDQxNjQ4NC4xNzU0NTczOTQ5*_ga_8JE65Q40S6*czE3NTQ1NzM5NDkkbzEkZzEkdDE3NTQ1NzM5NzMkajM2JGwwJGgw"
+        ],
+        "post_type": "text_with_image",
+        "likes_count": [],
+        "createdAt": "2025-07-16T05:54:31.191Z",
+        "updatedAt": "2025-07-16T05:54:31.191Z",
+    },
+    {
+        "_id": "686e6d0407845749500c24cd",
+        "user": dummyUserData,
+        "content": "Unlock your potential—every small step counts. Stay consistent, stay focused, and trust the process. Growth takes time, but every day is a new chance to be better than yesterday. 🌱✨\r\n\r\n#Motivation #GrowthMindset #DailyInspiration #StayFocused #LevelUp #PositiveVibes #KeepGoing #SelfImprovement #MindsetMatters #SuccessJourney",
+        "image_urls": [],
+        "post_type": "text",
+        "likes_count": [],
+        "createdAt": "2025-07-09T13:22:12.601Z",
+        "updatedAt": "2025-07-09T13:22:12.601Z",
+    },
+    {
+        "_id": "686e6b21de877d29cf02e2a7",
+        "user": dummyUserData,
+        "content": "This is a sample paragraph with some #hashtags like #socialmedia and #marketing. Let's find them!",
+        "image_urls": [],
+        "post_type": "text",
+        "likes_count": [],
+        "createdAt": "2025-07-09T13:14:09.144Z",
+        "updatedAt": "2025-07-09T13:14:09.144Z",
+    },
+    {
+        "_id": "686e3e47ba0cf0fecba19947",
+        "user": dummyUserData,
+        "content": "",
+        "image_urls": [
+            "https://images.pexels.com/photos/1619317/pexels-photo-1619317.jpeg"
+        ],
+        "post_type": "image",
+        "likes_count": [
+            "user_2zdJbcAqiOX9jq2DIueBRQn0lMt"
+        ],
+        "createdAt": "2025-07-09T10:02:47.213Z",
+        "updatedAt": "2025-07-09T10:09:37.075Z",
+    },
+    {
+        "_id": "686e39e86e0585e9e2e58dd3",
+        "user": dummyUserData,
+        "content": "Finally , got the car !",
+        "image_urls": [
+            "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg"
+        ],
+        "post_type": "text_with_image",
+        "likes_count": [],
+        "createdAt": "2025-07-09T09:44:08.626Z",
+        "updatedAt": "2025-07-09T09:44:08.626Z",
+    },
+    {
+        "_id": "686e361389841ba9f2633201",
+        "user": dummyUserData,
+        "content": "Hello, Everyone this is my first Post",
+        "image_urls": [],
+        "post_type": "text",
+        "likes_count": [],
+        "createdAt": "2025-07-09T09:27:47.529Z",
+        "updatedAt": "2025-07-09T09:27:47.529Z",
+    },
+    {
+        "_id": "68773e977db16954a783839c",
+        "user": dummyUserData,
+        "content": "We're a small #team with a big vision — working day and night to turn dreams into products, and #products into something people love.",
+        "image_urls": [
+            "https://images.pexels.com/photos/1595385/pexels-photo-1595385.jpeg",
+            "https://images.pexels.com/photos/12556235/pexels-photo-12556235.jpeg?_gl=1*188besp*_ga*MTAyNDQxNjQ4NC4xNzU0NTczOTQ5*_ga_8JE65Q40S6*czE3NTQ1NzM5NDkkbzEkZzEkdDE3NTQ1NzM5NzMkajM2JGwwJGgw"
+        ],
+        "post_type": "text_with_image",
+        "likes_count": [],
+        "createdAt": "2025-07-16T05:54:31.191Z",
+        "updatedAt": "2025-07-16T05:54:31.191Z",
+    },
+    {
+        "_id": "686e6d0407845749500c24cd",
+        "user": dummyUserData,
+        "content": "Unlock your potential—every small step counts. Stay consistent, stay focused, and trust the process. Growth takes time, but every day is a new chance to be better than yesterday. 🌱✨\r\n\r\n#Motivation #GrowthMindset #DailyInspiration #StayFocused #LevelUp #PositiveVibes #KeepGoing #SelfImprovement #MindsetMatters #SuccessJourney",
+        "image_urls": [],
+        "post_type": "text",
+        "likes_count": [],
+        "createdAt": "2025-07-09T13:22:12.601Z",
+        "updatedAt": "2025-07-09T13:22:12.601Z",
+    },
+    {
+        "_id": "686e6b21de877d29cf02e2a7",
+        "user": dummyUserData,
+        "content": "This is a sample paragraph with some #hashtags like #socialmedia and #marketing. Let's find them!",
+        "image_urls": [],
+        "post_type": "text",
+        "likes_count": [],
+        "createdAt": "2025-07-09T13:14:09.144Z",
+        "updatedAt": "2025-07-09T13:14:09.144Z",
+    },
+    {
+        "_id": "686e3e47ba0cf0fecba19947",
+        "user": dummyUserData,
+        "content": "",
+        "image_urls": [
+            "https://images.pexels.com/photos/1619317/pexels-photo-1619317.jpeg"
+        ],
+        "post_type": "image",
+        "likes_count": [
+            "user_2zdJbcAqiOX9jq2DIueBRQn0lMt"
+        ],
+        "createdAt": "2025-07-09T10:02:47.213Z",
+        "updatedAt": "2025-07-09T10:09:37.075Z",
+    },
+    {
+        "_id": "686e39e86e0585e9e2e58dd3",
+        "user": dummyUserData,
+        "content": "Finally , got the car !",
+        "image_urls": [
+            "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg"
+        ],
+        "post_type": "text_with_image",
+        "likes_count": [],
+        "createdAt": "2025-07-09T09:44:08.626Z",
+        "updatedAt": "2025-07-09T09:44:08.626Z",
+    },
+    {
+        "_id": "686e361389841ba9f2633201",
+        "user": dummyUserData,
+        "content": "Hello, Everyone this is my first Post",
+        "image_urls": [],
+        "post_type": "text",
+        "likes_count": [],
+        "createdAt": "2025-07-09T09:27:47.529Z",
+        "updatedAt": "2025-07-09T09:27:47.529Z",
+    },
+    {
+        "_id": "68773e977db16954a783839c",
+        "user": dummyUserData,
+        "content": "We're a small #team with a big vision — working day and night to turn dreams into products, and #products into something people love.",
+        "image_urls": [
+            "https://images.pexels.com/photos/1595385/pexels-photo-1595385.jpeg",
+            "https://images.pexels.com/photos/12556235/pexels-photo-12556235.jpeg?_gl=1*188besp*_ga*MTAyNDQxNjQ4NC4xNzU0NTczOTQ5*_ga_8JE65Q40S6*czE3NTQ1NzM5NDkkbzEkZzEkdDE3NTQ1NzM5NzMkajM2JGwwJGgw"
         ],
         "post_type": "text_with_image",
         "likes_count": [],

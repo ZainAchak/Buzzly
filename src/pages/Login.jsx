@@ -1,11 +1,12 @@
-import { Laptop, Star } from 'lucide-react'
+import { Github, Heart, Laptop, Linkedin, Star } from 'lucide-react'
 import { assets } from '../assets/assets'
 import techused from "../assets/techused.png"
 import { SignedIn, SignedOut, SignIn, SignInButton, UserButton } from '@clerk/clerk-react';
 
 export default function Login() {
   return (
-    <div className='min-h-screen flex flex-col md:flex-row'>
+    <main className='h-screen  flex flex-col justify-between'>
+    <div className='flex grow flex-col md:flex-row'>
       <img src={assets.bgImage} alt='' 
            className='absolute top-0 left-0 -z-1 w-full h-full object-cover'/>
 
@@ -44,7 +45,7 @@ export default function Login() {
         </div>
 
         {/* Right side : Login Form */}
-        <div className=' flex-1 flex flex-col items-center justify-center p-6 sm:p-10'>
+        <div className=' flex-1 flex flex-col items-center justify-center p-6 sm:p-10 max-sm:mt-[-15px]'>
           <SignIn/>
           {/* <span className='sm:hidden md:h10 '></span> */}
           <div>
@@ -52,5 +53,31 @@ export default function Login() {
           </div>
         </div>
     </div>
+
+    <footer className="min-h-12 bg-slate-800 max-sm:mt-0 text-white flex flex-row justify-center items-center gap-2 sm:gap-6 px-4 text-sm">
+      <p className="flex items-center gap-1">
+        Made with <Heart className="inline text-red-500 w-4 h-4" /> by Zain
+      </p>
+
+      <div className="flex items-center gap-2">
+        <a
+          href="https://github.com/zainachak"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-gray-300 transition-colors"
+        >
+          <Github className="w-5 h-5" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/zainachak/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-gray-300 transition-colors"
+        >
+          <Linkedin className="w-5 h-5" />
+        </a>
+      </div>
+    </footer>
+    </main>
   )
 }
