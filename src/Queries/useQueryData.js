@@ -1,6 +1,5 @@
 import { useQuery } from "@tanstack/react-query"
-import { fetchFeeds, fetchRecentMessages, fetchStories } from "../Apis/apis"
-import { use } from "react"
+import { fetchConnectionsData, fetchFeeds, fetchRecentMessages, fetchStories } from "../Apis/apis"
 
 export const useFeedsQuery = () => {
   return useQuery({
@@ -20,5 +19,12 @@ export const useRecentMessagesQuery = () => {
   return useQuery({
     queryKey: ['recentMessages'],
     queryFn: fetchRecentMessages
+  })
+}
+
+export const useConnectionsQuery = () =>{
+  return useQuery({
+    queryKey:['connectionsData'],
+    queryFn: fetchConnectionsData
   })
 }

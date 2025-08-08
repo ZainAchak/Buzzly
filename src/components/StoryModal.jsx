@@ -15,7 +15,7 @@ const StoryModal = () => {
   const [media, setMedia] = useState(null)
   const [previewUrl, setPreviewUrl] = useState(null)
 
-  console.log("media",media)
+  // console.log("media",media)
 
   function handleMediaUpload(e) {
     const file = e.target.files?.[0]
@@ -33,7 +33,7 @@ const StoryModal = () => {
     setShowModal(false)
   }
 
-  console.log(background)
+  // console.log(background)
   return (
     <div className='fixed inset-0 z-110 min-h-screen bg-black/80 backdrop-blur text-white flex items-center justify-center p-4'>
       <div className='w-full max-w-md'>

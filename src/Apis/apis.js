@@ -1,4 +1,4 @@
-import { dummyPostsData, dummyRecentMessagesData, dummyStoriesData } from "../assets/assets"
+import { dummyConnectionsData, dummyFollowersData, dummyFollowingData, dummyPendingConnectionsData, dummyPostsData, dummyRecentMessagesData, dummyStoriesData } from "../assets/assets"
 
 export const fetchFeeds = async () => {
     return new Promise((resolve)=>{
@@ -21,5 +21,18 @@ export const fetchRecentMessages = async () => {
         setTimeout(() => {
             resolve(dummyRecentMessagesData)
         }, 100);
+    })
+}
+
+export const fetchConnectionsData = async () => {
+    return new Promise((resolve)=>{
+        setTimeout(() => {
+            resolve({
+                dummyConnectionsData,
+                dummyFollowersData,
+                dummyFollowingData,
+                dummyPendingConnectionsData
+            })
+        }, 200);
     })
 }

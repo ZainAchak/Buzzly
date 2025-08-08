@@ -16,6 +16,7 @@ import { useUser } from "@clerk/clerk-react";
 import Layout from "./pages/Layout";
 import Loading from "./components/Loading";
 import { Toaster } from "react-hot-toast";
+import BrokenPage from "./pages/BrokenPage";
 
 function App() {
   const user = useUser();
@@ -28,7 +29,7 @@ function App() {
         <Route index element={<Feed />} />
         <Route path="messages" element={<Messages />} />
         <Route path="messages/:userid" element={<Chatbox />} />
-        <Route path="connections" element={<Connections />} />
+        <Route path="connections" element={<Connections />} errorElement={<BrokenPage/>} />
         <Route path="discover" element={<Discover />} />
         <Route path="profile" element={<Profile />} />
         <Route path="profile/:profileId" element={<Profile />} />
