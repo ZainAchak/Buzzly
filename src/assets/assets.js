@@ -44,7 +44,7 @@ export const dummyUserData = {
 const dummyUser2Data = {
     ...dummyUserData,
     _id: "user_2",
-    username: "Richard Hendricks",
+    username: "richards",
     full_name: "Richard Hendricks",
     profile_picture: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=200",
 }
